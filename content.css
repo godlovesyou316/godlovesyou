@@ -1,0 +1,61 @@
+.content-box {
+    background-color: wheat;
+    max-width: 650px;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.channel-picture {
+    border-right-style: solid;
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+}
+.video-details {
+    padding-left: 15px;
+    display: inline-block;
+}
+.title-grid {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    
+    height: 50px;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 25px;
+}
+.source {
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    border-radius: 20px;
+    
+    
+}
+
+.source-icon {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.content-credit {
+    margin-top: 1px;
+}
+
+.content {
+    font-size: medium;
+}
+
+.credit {
+    font-size: small;
+}
+.bible-verses {
+    font-size: 11;
+}
